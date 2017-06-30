@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif;
+  font-family: Verdana, sans-serif;
   text-align: center;
 }
 
@@ -12,18 +12,31 @@ body {
   background-color: black;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
 h1 {
-  color: white;
-  font-size: 4em;
-  font-weight: bold;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+p {
+  color: gray;
+  font-size: 21px;
 }
 
 p.download a {
   color: Aquamarine;
   text-decoration: underline;
+  font-size: 16px;
 }
 
-p {
-  color: gray;
-  font-size: 1.2em;
+p.copyright {
+  text-align: right;
 }
