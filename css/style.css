@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  text-align: center;
 }
 
 html {
@@ -11,9 +12,18 @@ body {
   background-color: black;
 }
 
-h1.header {
+h1 {
   color: white;
   font-size: 4em;
   font-weight: bold;
+}
 
+p.download a {
+  color: Aquamarine;
+  text-decoration: underline;
+}
+
+p {
+  color: gray;
+  font-size: 1.2em;
 }
